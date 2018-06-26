@@ -19,6 +19,9 @@ h1::first-letter {
 p + p {
     color:darkgoldenrod
 }
-li + li {
+li ~ li {
     color:deeppink
+}
+li::first-line {
+    color:black
 }
