@@ -14,14 +14,14 @@ section > h1 {
     color:coral;
 }
 h1::first-letter {
-    color:black
+    color:black;
 }
 p + p {
-    color:darkgoldenrod
+    color:darkgoldenrod;
 }
 li ~ li {
-    color:deeppink
+    color:deeppink;
 }
-li::first-line {
-    color:black
+ol::first-line{
+    color:black;
 }
