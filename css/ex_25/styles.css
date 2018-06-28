@@ -1,0 +1,64 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.container {
+    width: 960px;
+    margin: auto;
+    background-color: red;
+    border: 1px solid grey;
+}
+header {
+    padding: 20px;
+    color: #eee;
+}
+header, footer {
+    background-color: grey;
+}
+.side {
+    float: right;
+    width: 150px;
+}
+.side ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.side ul li a {
+    display: block;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    text-decoration-line: none;
+    text-align: center;
+    color: #333;
+    border-bottom: 1px solid grey
+}
+.side ul li a:hover {
+    color: #eee;
+    background-color: grey;
+}
+.main {
+    margin-right: 150px;
+    background-color: #eee;
+    padding: 20px;
+}
+.main h1 {
+    margin-top: 0px;
+}
+.main p {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+footer {
+    clear: both;
+    color: #eee;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+footer .love {
+    color: pink;
+}
