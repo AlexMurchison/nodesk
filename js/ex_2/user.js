@@ -41,6 +41,6 @@ const user = {
 
 const properties = Object.keys(user);
 
-properties.forEach (function(property, index) {
-    console.log(`${properties[index]}: ${user[property]}`)
+properties.forEach (function(property) {
+    console.log(`${property}: ${user[property]}`)
 });
