@@ -1,0 +1,1 @@
+var firstname="Alex";var lastname="Murchison";var age=26;console.log(firstname);console.log(lastname);console.log(age);
