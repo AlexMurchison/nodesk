@@ -1,8 +1,18 @@
-doctype html
-html(lang='en')
-  head
-    title= title
-  body
-    h1= message
-    div.container
-     p Starting using Pug!
+extends layout.pug
+
+block scripts
+  script.
+    alert('alert from a block');
+
+block content
+  h1= message
+  .container
+    p Starting using Pug!
+  p
+    | text as content
+  p.
+    text as content
+  p text as content
+  a.foo_link(href='about.html', target='_blank') About Us
+  div#main main content
+  div.red text in red
