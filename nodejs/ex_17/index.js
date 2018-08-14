@@ -5,7 +5,15 @@ const port = 3000;
 app.set('view engine', 'pug');
 
 app.get('/', (req, res) => {
-  res.render('index', { title: 'Hey', message: 'Hello there!' });
+  res.render('index');
+});
+
+app.get('/testing', (req, res) => {
+    res.render('testing');
+});
+
+app.get('/:id', (req, res) => {
+    res.send(`The product is ${req.params.id}`)
 });
 
 app.listen(3000, function (err) {
